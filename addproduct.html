@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Produk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Forum Jual Beli</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Daftar</a>
+            <a href="add-product.html">Tambah Produk</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+    </header>
+    <main>
+        <section id="add-product">
+            <h2>Tambah Produk Baru</h2>
+            <form action="index.html" method="post">
+                <label for="prod-name">Nama Produk:</label>
+                <input type="text" id="prod-name" name="prod-name" required>
+                
+                <label for="prod-price">Harga Produk:</label>
+                <input type="number" id="prod-price" name="prod-price" required>
+                
+                <label for="prod-desc">Deskripsi Produk:</label>
+                <textarea id="prod-desc" name="prod-desc" required></textarea>
+                
+                <label for="prod-img">Gambar Produk:</label>
+                <input type="file" id="prod-img" name="prod-img" required>
+                
+                <button type="submit">Tambah Produk</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Forum Jual Beli</p>
+    </footer>
+</body>
+</html>
